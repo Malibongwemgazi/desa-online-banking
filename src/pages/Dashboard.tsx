@@ -4,6 +4,7 @@ import { BankCard } from "@/components/BankCard";
 import { RecentTransactions } from "@/components/RecentTransactions";
 import { Button } from "@/components/ui/button";
 import { accounts, cardData, transactions } from "@/data/mockData";
+import { Transaction } from "@/types/transaction";
 import { ArrowRight } from "lucide-react";
 
 const Dashboard = () => {
@@ -67,7 +68,7 @@ const Dashboard = () => {
         </div>
 
         {/* Recent transactions */}
-        <RecentTransactions transactions={transactions} />
+        <RecentTransactions transactions={transactions as Transaction[]} />
       </div>
     </div>
   );

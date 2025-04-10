@@ -1,6 +1,6 @@
 
 import { Card } from "./ui/card";
-import { Chip, ContactlessMedium } from "lucide-react";
+import { CreditCard, Wifi } from "lucide-react";
 
 interface BankCardProps {
   cardNumber: string;
@@ -33,8 +33,8 @@ export function BankCard({
       <div className="relative flex flex-col h-full justify-between">
         <div className="flex justify-between items-start">
           <div className="flex gap-2">
-            <ContactlessMedium className="text-black" size={24} />
-            <Chip className="text-black" size={24} />
+            <Wifi className="text-black" size={24} />
+            <CreditCard className="text-black" size={24} />
           </div>
           <div className="text-right">
             <p className="text-xs font-medium text-black/70">SA RAND BANK</p>

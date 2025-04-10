@@ -12,17 +12,19 @@ import {
   SelectValue 
 } from "@/components/ui/select";
 import { useEffect, useState } from "react";
-import { Transaction } from "@/components/RecentTransactions";
+import { Transaction } from "@/types/transaction";
 
 const TransactionsPage = () => {
-  const [filteredTransactions, setFilteredTransactions] = useState<Transaction[]>(transactions);
+  // Cast transactions to the correct type
+  const typedTransactions = transactions as Transaction[];
+  const [filteredTransactions, setFilteredTransactions] = useState<Transaction[]>(typedTransactions);
   const [filter, setFilter] = useState("all");
   
   useEffect(() => {
     if (filter === "all") {
-      setFilteredTransactions(transactions);
+      setFilteredTransactions(typedTransactions);
     } else {
-      setFilteredTransactions(transactions.filter(t => t.type === filter));
+      setFilteredTransactions(typedTransactions.filter(t => t.type === filter));
     }
   }, [filter]);
   

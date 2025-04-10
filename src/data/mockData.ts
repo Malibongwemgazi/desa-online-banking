@@ -1,4 +1,6 @@
 
+import { Transaction } from "@/types/transaction";
+
 export const accounts = [
   {
     id: "acc1",
@@ -23,7 +25,7 @@ export const accounts = [
   }
 ];
 
-export const transactions = [
+export const transactions: Transaction[] = [
   {
     id: "tx1",
     description: "Woolworths",
