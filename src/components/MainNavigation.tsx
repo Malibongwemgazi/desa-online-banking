@@ -70,9 +70,9 @@ const MainNavigation = () => {
       )}>
         <div className="flex items-center mb-8 px-2">
           <div className="bg-bank-blue rounded-lg p-2 mr-3">
-            <span className="text-white font-bold text-xl">SA</span>
+            <span className="text-white font-bold text-xl">DE</span>
           </div>
-          <h1 className="font-bold text-xl text-bank-blue">SA Rand Banking</h1>
+          <h1 className="font-bold text-xl text-bank-blue">DESA Banking</h1>
         </div>
         
         <nav className="flex-1 space-y-1">

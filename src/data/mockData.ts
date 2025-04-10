@@ -94,7 +94,7 @@ export const transactions: Transaction[] = [
 export const cardData = {
   id: "card1",
   cardNumber: "4532123456781234",
-  cardholderName: "THABO MOLEFE",
+  cardholderName: "MALIBONGWE NTSHANGASE",
   expiryDate: "04/29",
   cvv: "***",
   type: "Gold Visa"

@@ -37,7 +37,7 @@ export function BankCard({
             <CreditCard className="text-black" size={24} />
           </div>
           <div className="text-right">
-            <p className="text-xs font-medium text-black/70">SA RAND BANK</p>
+            <p className="text-xs font-medium text-black/70">DESA BANK</p>
             <p className="text-xs font-bold text-black">GOLD</p>
           </div>
         </div>

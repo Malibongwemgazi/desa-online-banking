@@ -9,7 +9,7 @@ import { ArrowRight } from "lucide-react";
 
 const Dashboard = () => {
   // Get current user name
-  const userName = "Thabo";
+  const userName = "Malibongwe";
   
   // Get current date for greeting
   const now = new Date();
@@ -58,7 +58,7 @@ const Dashboard = () => {
 
         {/* Bank card */}
         <div>
-          <h2 className="text-xl font-bold text-gray-800 mb-4">Your Card</h2>
+          <h2 className="text-xl font-bold text-gray-800">Your Card</h2>
           <BankCard 
             cardNumber={cardData.cardNumber}
             cardholderName={cardData.cardholderName}

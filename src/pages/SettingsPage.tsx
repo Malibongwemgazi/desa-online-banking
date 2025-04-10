@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -46,17 +47,17 @@ const SettingsPage = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
                     <Label htmlFor="firstName">First Name</Label>
-                    <Input id="firstName" defaultValue="Thabo" />
+                    <Input id="firstName" defaultValue="Malibongwe" />
                   </div>
                   <div>
                     <Label htmlFor="lastName">Last Name</Label>
-                    <Input id="lastName" defaultValue="Molefe" />
+                    <Input id="lastName" defaultValue="Ntshangase" />
                   </div>
                 </div>
                 
                 <div>
                   <Label htmlFor="email">Email Address</Label>
-                  <Input id="email" type="email" defaultValue="thabo.molefe@example.com" />
+                  <Input id="email" type="email" defaultValue="malibongwe.ntshangase@example.com" />
                 </div>
                 
                 <div>
